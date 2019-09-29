@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("font-files/Inter-Medium.woff2?v=3.10") format("woff2"),
+             url("font-files/Inter-Medium.woff?v=3.10") format("woff");
+}
+@font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("font-files/Inter-BoldItalic.woff2?v=3.10") format("woff2"),
+         url("font-files/Inter-BoldItalic.woff?v=3.10") format("woff");
+  }
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url("font-files/Inter-Thin.woff2?v=3.10") format("woff2"),
+         url("font-files/Inter-Thin.woff?v=3.10") format("woff");
+}
+
+.content {
+    margin: 0 auto -1%;
+    font-size: 1.5em;
+    line-height: 1;
+    font-family: 'Inter', Arial, sans-serif;
+    top: 50%;
+    max-width: 50%;
+    position: relative;
+    text-align: center;
+    color: #D3D3D3;
+/*    text-transform: lowercase; */
+}
+
+.content-body {
+    margin: 0 auto -1%;
+    top: 50%;
+    background-color: #238276;
+    height: 100vh;
+    position: relative;
+}
+
+a {
+    color: #D3D3D3;
+}
+
+.fa {
+    position: relative;
+    margin: 0 10px;
+    font-size: 2em;
+}
+
+a:hover {
+    color: #E9C46A;
+}
