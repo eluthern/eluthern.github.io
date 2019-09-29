@@ -23,6 +23,10 @@
          url("font-files/Inter-Thin.woff?v=3.10") format("woff");
 }
 
+body {
+    background-color: #238276;
+}
+
 .content {
     margin: 0 auto -1%;
     font-size: 1.5em;
@@ -39,7 +43,6 @@
 .content-body {
     margin: 0 auto -1%;
     top: 50%;
-    background-color: #238276;
     height: 100vh;
     position: relative;
 }
