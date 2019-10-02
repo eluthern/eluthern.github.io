@@ -28,12 +28,10 @@ body {
 }
 
 .content {
-    margin: 0 auto -1%;
     font-size: 1.5em;
     line-height: 1;
     font-family: 'Inter', Arial, sans-serif;
     top: 50%;
-    max-width: 50%;
     position: relative;
     text-align: center;
     color: #D3D3D3;
@@ -48,13 +46,20 @@ body {
 }
 
 a {
+    padding-top: 15px;
     color: #D3D3D3;
 }
 
 .fa {
+    transition: all .3s ease-in-out;
     position: relative;
     margin: 0 10px;
     font-size: 2em;
+}
+
+.fa:hover {
+    transition: all .3s ease-in-out;
+    transform: translateY(-15px);
 }
 
 a:hover {
