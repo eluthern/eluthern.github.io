@@ -6,16 +6,12 @@ import java.util.Scanner;
 
 public class isPalindrome {
 
-	public static void main(String[] args) {
+	public String palindromeCheck(String wordToCheck) {
 
-		String wordToCheck = "";
+		wordToCheck = "";
 		int wordLength = 0;
 		int sameCount = 0;
 
-		System.out.println("Palindrome Checker");
-		Scanner in = new Scanner(System.in);
-		System.out.println("Give me a word to check: >>>");
-		wordToCheck = in.nextLine();
 		wordToCheck = wordToCheck.replaceAll("\\s+", "");
 
 		List<String> phraseChars = new ArrayList<String>();
@@ -33,12 +29,11 @@ public class isPalindrome {
 				sameCount = 0;
 			}
 		}
-		
+
 		if (sameCount > 0) {
-			System.out.println(wordToCheck + " is a palindrome!"); 
-		}
-		else {
-			System.out.println(wordToCheck + " is not a palindrome.");
+			return (wordToCheck + " is a palindrome!");
+		} else {
+			return (wordToCheck + " is not a palindrome.");
 		}
 	}
 }
